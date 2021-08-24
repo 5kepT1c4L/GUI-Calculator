@@ -5,7 +5,7 @@ tk = Tk()
 tk.title("Calculator")
 tk.geometry('600x600')
 tk.configure(bg="pink")
-equation = "yes"
+equation = ""
 
 #Frame for the equation input
 frame1 = Frame(tk, highlightbackground="blue", highlightthickness=1,width=600, height=80, bd= 0)
@@ -36,6 +36,9 @@ button9 = Button(buttons_frame, text="9", width=16, height = 8, bg="pink")
 button0 = Button(buttons_frame, text="0", width=16, height = 8, bg="pink")
 button_decimal = Button(buttons_frame, text=".", width=16, height = 8, bg="pink")
 
+photo = PhotoImage(file = r"C:\Users\jinge\Downloads\coolgif.png")
+image_button = Button(buttons_frame, image=photo, width=120, height= 130)
+
 
 
 
@@ -51,6 +54,7 @@ button8.grid(row=2, column=1, sticky="w")
 button9.grid(row=2, column=2, sticky="w")
 button0.grid(row=3, column=0)
 button_decimal.grid(row=3, column=1)
+image_button.grid(row=3, column=2)
 
 #operation buttons
 plus_button = Button(operation_frame, text="+", width=15, height=11, bg="cyan")
