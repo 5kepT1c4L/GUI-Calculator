@@ -14,3 +14,6 @@ def play_song():
 ```python
 photo = PhotoImage(file = r"C:\Users\jinge\Downloads\coolgif.png")
 ```
+
+### Calculator Look
+![image](https://user-images.githubusercontent.com/70067413/130866651-7254029e-c645-41fe-947e-a78f8ce2ce4a.png)
