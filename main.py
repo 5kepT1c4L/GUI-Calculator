@@ -27,12 +27,7 @@ def press(num):
 
 # Function to evaluate the final expression
 def equalpress():
-    # Try and except statement is used
-    # for handling the errors like zero
-    # division error etc.
 
-    # Put that code inside the try block
-    # which may generate the error
     try:
 
         global expression
