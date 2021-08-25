@@ -2,7 +2,7 @@
 A GUI calculator made with tkinter module in python
 
 
-#How to setup the calculator
+### How to setup the calculator
 1. If pygame is not installed, go to terminal and do **pip install pygame**
 2. If desired, change the mp3 and PNG by downloading desired ones and replace the current paths in the code to the mp's and PNG's
 3. If not, update both files' paths to that on your computer's
